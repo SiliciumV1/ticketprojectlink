@@ -27,7 +27,7 @@ function plugin_version_ticketprojectlink() {
     return [
         'name'           => 'Ticket Project Link',
         'version'        => PLUGIN_TICKETPROJECTLINK_VERSION,
-        'author'         => 'ECGE Conseil',
+        'author'         => 'SiliciumV1',
         'license'        => 'GPLv2+',
         'homepage'       => 'https://github.com/SiliciumV1/ticketprojectlink',
         'requirements'   => [
