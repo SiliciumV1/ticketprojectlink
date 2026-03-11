@@ -1,0 +1,25 @@
+# GLPI Plugin Ticket Project Link
+# Copyright (C) 2025 ECGE Conseil
+# This file is distributed under the same license as the Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ticket Project Link 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-01 12:00+0000\n"
+"PO-Revision-Date: 2025-01-01 12:00+0000\n"
+"Last-Translator: ECGE Conseil\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Lier au projet"
+msgstr "Lier au projet"
+
+msgid "Projet"
+msgstr "Projet"
+
+msgid "Valider"
+msgstr "Valider"
