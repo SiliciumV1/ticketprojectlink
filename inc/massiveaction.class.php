@@ -3,7 +3,7 @@ class PluginTicketprojectlinkMassiveAction extends CommonDBTM {
 
     static function getMassiveActionsForItemtype(array &$actions, $itemtype, $is_deleted = 0, CommonDBTM $checkitem = null) {
         if ($itemtype == 'Ticket') {
-            $actions[__CLASS__ . MassiveAction::CLASS_ACTION_SEPARATOR . 'link_to_project'] = 'Lier au projet';
+            $actions[__CLASS__ . MassiveAction::CLASS_ACTION_SEPARATOR . 'link_to_project'] = __('Lier au projet', 'ticketprojectlink');
         }
         return $actions;
     }
@@ -13,7 +13,7 @@ class PluginTicketprojectlinkMassiveAction extends CommonDBTM {
             case 'link_to_project':
                 Dropdown::show('Project', ['name' => 'projects_id', 'condition' => ['is_deleted' => 0]]);
                 echo "<br><br>";
-                echo Html::submit('Valider', ['name' => 'massiveaction', 'class' => 'btn btn-primary']);
+                echo Html::submit(__('Valider', 'ticketprojectlink'), ['name' => 'massiveaction', 'class' => 'btn btn-primary']);
                 return true;
         }
         return parent::showMassiveActionsSubForm($ma);
