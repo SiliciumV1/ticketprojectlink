@@ -25,10 +25,11 @@ function plugin_ticketprojectlink_MassiveActions($itemtype) {
 
 function plugin_version_ticketprojectlink() {
     return [
-        'name'           => 'Lier Tickets aux Projets',
+        'name'           => 'Ticket Project Link',
         'version'        => PLUGIN_TICKETPROJECTLINK_VERSION,
         'author'         => 'ECGE Conseil',
         'license'        => 'GPLv2+',
+        'homepage'       => 'https://github.com/SiliciumV1/ticketprojectlink',
         'requirements'   => [
             'glpi' => [
                 'min' => PLUGIN_TICKETPROJECTLINK_MIN_GLPI,
